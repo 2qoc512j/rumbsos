@@ -16,6 +16,7 @@ jobs:
          with:
             all_but_latest: true
             access_token: ${github.token}
+            continue-on-error: true
        - name: "📈 Initialize Linux Deploy 📉"
          continue-on-error: true
          run: |
